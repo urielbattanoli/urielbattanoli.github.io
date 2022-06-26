@@ -1,0 +1,41 @@
+nav {
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    margin: 20px auto;
+    letter-spacing: 0.1em;
+}
+body {
+    margin: 0 5% 0 5%;
+}
+img.profile {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 16px;
+    border-radius: 50%;
+}
+a {
+    font-weight: bold;
+    margin: auto;
+    color: black;
+    text-decoration: none;
+}
+nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-right: 20px;
+}
+a:hover {
+    color: gray;
+    transition: 200ms ease;
+    text-decoration: underline;
+}
+footer {
+    margin: 20px auto;
+    padding: 20px;
+    letter-spacing: 0.1em;
+    float: right;
+}
+footer img {
+    width: 100px;
+}
