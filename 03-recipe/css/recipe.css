@@ -1,0 +1,89 @@
+body {
+    background-image: url("../assets/silverware.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: white;
+    color: #404040;
+    margin: 0.5em;
+    padding: 0;
+    font-size: 11pt;
+    line-height: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+nav {
+    background-color:#F0F0F0;
+    text-align: center;
+    line-height: 1.5em
+}
+a {
+    color:#A4A400;
+}
+a:hover {
+    color:#d2d228;
+}
+nav > a {
+    font-size: 22pt;
+    font-weight: bold
+}
+h1,h2,h3,h4,h5 {
+    text-align: left;
+    color:#A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: table;
+    letter-spacing: 0.25em
+}
+article h1 {
+    font-size: 18pt
+}
+p {
+    line-height: 22px
+}
+p.author::before {
+    content:"- "
+}
+abbr {
+    text-decoration: underline
+}
+div.align-to-right {
+    text-align: right
+}
+div.image-top-border {
+    padding-top:1em
+}
+div.quote {
+    padding: 15px;
+    margin: 10px;
+    font-style: italic;
+    background-color: #ffffa8e2
+}
+div.quotes {
+    margin-left: 35px;
+}
+div.links {
+    padding-bottom: 35px;
+    line-height: 22px
+}
+div.validators {
+    align-items: center;
+    margin-top: 22px;
+}
+li {
+    line-height: 22px
+}
+ul > li {
+  list-style-image: url("../assets/pie_bullet.png");
+}
+ol.cookie {
+  list-style-image: url("../assets/pie_bullet.png");
+}
+footer {
+    padding: 15px;
+    background-image: url("../assets/background.gif");
+}
+footer > div.copyright {
+    line-height: 22px;
+    font-family: monospace
+}
