@@ -1,0 +1,59 @@
+header {
+    background-color: lightblue;
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu {
+    display: flex;
+    background-color: darkslategray;
+}
+.menu > div {
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid black;
+}
+.columns {
+    clear: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+.column1 {
+    background-color: rgb(150, 150, 150);
+    flex: 50%;
+    height: 200px;
+}
+.column2 {
+    background-color: rgb(180, 180, 180);
+    flex: 50%;
+    height: 200px;
+}
+.column3 {
+    background-color: lightgray;
+    flex: 100%;
+    height: 200px;
+}
+footer {
+    background-color: darkslategray;
+    color: white;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+@media screen and (min-width: 600px) {
+    div.column1 {
+        flex: 30%;
+    }
+    div.column2 {
+        flex: 40%;
+    }
+    div.column3 {
+        flex: 30%;
+    }
+}

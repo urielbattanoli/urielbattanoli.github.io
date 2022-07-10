@@ -1,0 +1,64 @@
+header {
+    background-color: lightblue;
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu {
+    background-color: darkslategray;
+    height: 50px;
+    overflow: hidden;
+}
+.menu > div {
+    float: left;
+    color: white;
+    padding: 0px 10px 10px 10px;
+    border-right: 1px solid black;
+}
+.columns {
+    height: 200px;
+}
+.column1 {
+    background-color: rgb(150, 150, 150);
+    clear: left;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.column2 {
+    background-color: rgb(180, 180, 180);
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.column3 {
+    background-color: lightgray;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+footer {
+    background-color: darkslategray;
+    color: white;
+    clear: left;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+@media screen and (min-width: 600px) {
+    div.column1 {
+        width: 30%;
+    }
+    div.column2 {
+        width: 40%;
+    }
+    div.column3 {
+        width: 30%;
+    }
+}
