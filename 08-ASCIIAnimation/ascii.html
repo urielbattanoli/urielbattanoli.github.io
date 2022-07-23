@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<script async="false" type="text/javascript"
+    src="chrome-extension://fnjhmkhhmkbjkkabndcnnogagogbneec/in-page.js"></script>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>ASCIImation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./ascii.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./animations.js" type="text/javascript"></script>
+    <script src="./ascii.js" type="text/javascript"></script>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1070.0" data-gr-ext-installed="">
+    <header>CSE 190 M ASCII Animation Viewer</header>
+    <div class="container">
+        <textarea id="text-area" cols="80" rows="20"></textarea>
+        <fieldset>
+            <legend>Play Controls:</legend>
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Animation:</legend>
+            <select id="animation">
+                <option selected="selected" value="Blank">Blank</option>
+                <option value="Exercise">Exercise</option>
+                <option value="Juggler">Juggler</option>
+                <option value="Bike">Bike</option>
+                <option value="Dive">Dive</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Size:</legend>
+            <select id="fontsize">
+                <option value="7pt">Tiny</option>
+                <option value="10pt">Small</option>
+                <option value="12pt" selected="selected">Medium</option>
+                <option value="16pt">Large</option>
+                <option value="24pt">Extra Large</option>
+                <option value="32pt">XXL</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Speed:</legend>
+            <label><input id="turbo" type="checkbox">Turbo</label>
+        </fieldset>
+    </div>
+    <div id="validate">
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Furielbattanoli.github.io%2F08-ASCIIAnimation%2Fascii.html">
+            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator">
+        </a><br>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Furielbattanoli.github.io%2F08-ASCIIAnimation%2Fascii.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="Valid CSS!">
+        </a><br>
+        <a href="http://webster.cs.washington.edu/jslint?referer=https%3A%2F%2Furielbattanoli.github.io%2F08-ASCIIAnimation%2Fascii.js">
+            <img src="https://mumstudents.org/cs472/2014-09/images/w3c-js.png" alt="JavaScript Lint">
+        </a>
+
+
+    </div>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
