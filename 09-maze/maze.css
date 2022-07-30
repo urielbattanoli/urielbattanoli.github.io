@@ -110,3 +110,8 @@ div.youlose {
     z-index: 100;
     top: 134px;
 }
+
+#validate{
+    right:0px;
+    position: fixed;
+}
